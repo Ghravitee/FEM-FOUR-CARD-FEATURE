@@ -1,0 +1,56 @@
+.intro {
+
+   &__title {
+      color: var(--Grayish-Blue);
+      font-size: 1.5rem;
+      text-align: center;
+      margin-bottom: 1rem;
+      font-weight: 400;
+   }
+
+   &__title--span {
+      color: var(--Very-Dark-Blue);
+      display: block;
+      font-weight: 600;
+      font-size: 1.55rem;
+   }
+
+   &__paragraph {
+      color: var(--Grayish-Blue);
+      text-align: center;
+      font-size: 1rem;
+      margin-bottom: var(--spacer);      
+   }
+
+   @media (min-width: 31.25em) {
+      max-width: 32rem;
+      margin: 0 auto;
+   }
+
+     @media (min-width: 50em) {
+      max-width: 35rem;
+      }
+
+}
+
+.card {
+
+   &__title--1,
+   &__title--2,
+   &__title--3,
+   &__title--4 {
+      color: var(--Very-Dark-Blue);
+      font-weight: 600;
+      margin-bottom: .8rem;
+   }
+
+   &__paragraph--1,
+   &__paragraph--2,
+   &__paragraph--3,
+   &__paragraph--4 {
+      color: var(--Grayish-Blue);
+      font-size: .9rem;
+      font-weight: 400;
+   }
+
+}
